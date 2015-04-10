@@ -13,7 +13,7 @@
     "repositories": [
         {"type": "git", "url": "https://github.com/entere/alpay"},
         {"packagist": false}
-    ]
+    ],
     "autoload": {
 	    "psr-4": {
 	    	"Entere\\": "src/"
