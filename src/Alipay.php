@@ -5,6 +5,6 @@ class Alipay {
 		return 5 * intval($num);
 	}
 	public static function getRmb() {
-		return 100;
+		return 200;
 	}
 }
