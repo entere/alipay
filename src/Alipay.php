@@ -4,4 +4,7 @@ class Alipay {
 	public static function getMoney($num) {
 		return 5 * intval($num);
 	}
+	public static function getRmb() {
+		return 100;
+	}
 }
