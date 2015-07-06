@@ -1,5 +1,6 @@
 {
     "name": "entere/alipay",
+    "description": "alipay sdk",
     "license": "MIT",
     "authors": [
         {
@@ -7,12 +8,14 @@
             "email": "entere@126.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-    	 "php":">=5.4"
+        "php": ">=5.4.9"
     },
     "autoload": {
-	    "psr-4": {
-	    	"Entere\\": "src/"
-	    }
-  	}
+        "psr-4": {
+            "Entere\\Alipay\\Web\\": "src/Web",
+            "Entere\\Alipay\\Wap\\": "src/Wap"
+        }
+    }   
 }
