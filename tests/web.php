@@ -6,8 +6,8 @@ class webtest{
 		$alipay = new Entere\Alipay\Web\SdkPayment();
 		// 创建支付单。
 		$alipay
-			->setPartner('2088801376402861')
-			->setKey('m353qzojicdpyzgnjj0gxrsfgm481n7l')
+			->setPartner('**')
+			->setKey('**')
 			->setSellerId('mall@blogchina.com')
 			->setReturnUrl('http://localhost/github/alipay/tests/web.php')
 			->setOutTradeNo(time())

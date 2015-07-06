@@ -6,12 +6,13 @@ class waptest{
 		$alipay = new Entere\Alipay\Wap\SdkPayment();
 		// 创建支付单。
 		$alipay
-			->setPartner('2088801376402861')
+			->setPartner('***')
 			->setSignType('RSA')
 			->setItBPay('48h')
 			->setExternToken('')
-			->setPrivateKeyPath('../src/Wap/key/rsa_private_key.pem')
-			->setPublicKeyPath('../src/Wap/key/rsa_public_key.pem')
+			->setPrivateKeyPath('../key/rsa_private_key.pem')
+			->setPublicKeyPath('../key/rsa_public_key.pem')
+			->setAliPublicKeyPath('../key/alipay_public_key.pem')
 			->setSellerId('mall@blogchina.com')
 			->setReturnUrl('http://localhost/github/alipay/tests/wap.php')
 			->setNotifyUrl('http://localhost/github/alipay/tests/wap.php')
@@ -32,9 +33,9 @@ class waptest{
 			->setPartner('2088801376402861')
 			->setSignType('RSA')
 			->setItBPay('48h')
-			->setPrivateKeyPath('../src/Wap/key/rsa_private_key.pem')
-			->setPublicKeyPath('../src/Wap/key/rsa_public_key.pem')
-			->setAliPublicKeyPath('../src/Wap/key/alipay_public_key.pem')
+			->setPrivateKeyPath('../key/rsa_private_key.pem')
+			->setPublicKeyPath('../key/rsa_public_key.pem')
+			->setAliPublicKeyPath('../key/alipay_public_key.pem')
 			->setSellerId('mall@blogchina.com')
 			->setReturnUrl('http://localhost/github/alipay/tests/wap.php')
 			->setNotifyUrl('http://localhost/github/alipay/tests/wap.php');
