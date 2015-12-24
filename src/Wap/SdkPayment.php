@@ -89,7 +89,7 @@ class SdkPayment
 	}
 	public function setNotifyUrl($notify_url)
 	{
-		$this->notify_url = urlencode($notify_url);
+		$this->notify_url = $notify_url;
 		return $this;
 	}
 	public function setReturnUrl($return_url)
