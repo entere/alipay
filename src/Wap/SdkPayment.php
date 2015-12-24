@@ -94,7 +94,7 @@ class SdkPayment
 	}
 	public function setReturnUrl($return_url)
 	{
-		$this->return_url = urlencode($return_url);
+		$this->return_url = $return_url;
 		return $this;
 	}
 	public function setOutTradeNo($out_trade_no)
